@@ -6,9 +6,7 @@ import { AlertifyService } from '../_services/alertify.service';
 import { Observable, of } from 'rxjs';
 import { catchError } from 'rxjs/operators';
 
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable({ providedIn: 'root' })
 export class MemberListResolver implements Resolve<User[]> {
   pageNumber = 1;
   pageSize = 5;
