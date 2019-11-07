@@ -24,6 +24,7 @@ import { MemberDetailComponent } from './members/member-detail/member-detail.com
 import { NgxGalleryModule } from 'ngx-gallery';
 import { MemberEditComponent } from './members/member-edit/member-edit.component';
 import { PhotoEditorComponent } from './members/photo-editor/photo-editor.component';
+import { MemberMessagesComponent } from './members/member-messages/member-messages.component';
 
 export function tokenGetter() {
   return localStorage.getItem('token');
@@ -49,7 +50,8 @@ export class CustomHammerConfig extends HammerGestureConfig {
     MemberDetailComponent,
     MemberEditComponent,
     PhotoEditorComponent,
-    TimeAgoPipe
+    TimeAgoPipe,
+    MemberMessagesComponent
   ],
   imports: [
     BrowserModule,
