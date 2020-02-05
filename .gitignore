@@ -1,2 +1,5 @@
 .vscode
 photos
+
+# dependencies
+/node_modules
